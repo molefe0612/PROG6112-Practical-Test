@@ -1,8 +1,28 @@
 
-int[][] gamingConsolePrice = {{1000,2000,3000}
-                                  {2000,3000,4000}
-                                  {1500,1100.1200}       
-    }
+public class DispayYearlySales{
+ public static void main(String[] args){
+ String[][] cities ={{"Cape Town","port elizaberth","Pretoria"}};
+ 
+ int[][] consolePrice = {{1000,2000,3000}
+                         {2000,3000,4000}
+                         {1500,1100.1200}};
+
+
+System.out.println("Cities" + cities[i]);
+  for(int i = 0; i < consolePrice.length; i++ );
+  {
+  for(int k = 0; k < consolePrice.length; k++);{
+  
+  
+  System.out.println(cities[k]":" + consolePrice[i]);
+  
+  }
+  }
+  
     
-    Sys
-    
+ 
+ 
+ 
+ }
+}
+
