@@ -1,1 +1,43 @@
 
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.dispayyearlysales;
+
+/**
+ *
+ * @author khumi
+ */
+public abstract class Console implements IConsoles {
+    
+  private  String deviceType;
+   private String storeName;
+   private int salesAmount;
+//constructor
+    public Console(String deviceType, String StoreName, int salesAmount) {
+        this.deviceType = deviceType;
+        this.storeName = StoreName;
+        this.salesAmount = salesAmount;
+    }
+
+    @Override
+    public abstract int getTotalSales();
+           return totalSales
+    @Override
+    public abstract String getStore();
+                return store
+    @Override
+    public abstract String getConsoleType();
+
+   return consoleType
+//method to print 
+     public void displayConsoleType(){
+      
+      System.out.println("the type  of the device  is: " + deviceType + 
+                          "the name of the Store  is" + storeName +
+                          "the Sales amount is " + salesAmount);
+      
+}
+
+}
