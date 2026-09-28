@@ -1,13 +1,14 @@
 
 public class DispayYearlySales{
  public static void main(String[] args){
+// rows for the array
  String[][] cities ={{"Cape Town","port elizaberth","Pretoria"}};
- 
+ // coloumns for the array
  int[][] consolePrice = {{1000,2000,3000}
                          {2000,3000,4000}
                          {1500,1100.1200}};
 
-
+// 2 for loops to ittarate within each other
 System.out.println("Cities" + cities[i]);
   for(int i = 0; i < consolePrice.length; i++ );
   {
